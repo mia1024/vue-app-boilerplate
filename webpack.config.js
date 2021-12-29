@@ -61,9 +61,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             hash: true,
             inject: true,
-            templateContent: `
-                <div id="app"></div>
-          `
+            templateContent: '<div id="app"></div>',
+            meta: {
+                viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+            }
         }),
         new VueLoaderPlugin(),
         new webpack.DefinePlugin({
