@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceRoot": "./src",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "jsx": "preserve",
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "extendedDiagnostics": true,
+  },
+  "include": ["src/**/*"],
+}
